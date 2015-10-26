@@ -1,5 +1,5 @@
 /**
- * Main resume module
+ * Main module
  *
  * @author Victor Huerta
  */
