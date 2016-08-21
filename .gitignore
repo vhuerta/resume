@@ -1,8 +1,0 @@
-.idea/
-.meteor/local
-.meteor/meteorite
-
-bower_components
-
-.idea
-.idea/**
