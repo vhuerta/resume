@@ -38,14 +38,14 @@ $(function() {
   function showSkills() {
     $skillsCmd.closest('.sentence').find('.typed-cursor').hide();
     $('#skills').slideDown('fast', function() {
-      $('#skill-js').css('width', '95%');
-      $('#skill-java').css('width', '75%');
-      $('#skill-php').css('width', '95%');
+      $('#skill-js').css('width', '98%');
+      $('#skill-java').css('width', '85%');
+      $('#skill-php').css('width', '98%');
       $('#skill-python').css('width', '35%');
       $('#skill-swift').css('width', '35%');
-      $('#skill-nosql').css('width', '85%');
-      $('#skill-sql').css('width', '85%');
-      $('#skill-sysadmin').css('width', '75%');
+      $('#skill-nosql').css('width', '90%');
+      $('#skill-sql').css('width', '95%');
+      $('#skill-sysadmin').css('width', '85%');
       showCertificationsSentence();
     });
   }
