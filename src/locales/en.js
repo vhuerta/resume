@@ -1,5 +1,5 @@
 export default {
-  welcome: '# Welcome to Curriculum v2.0.0',
+  welcome: '# Welcome to Resume v2.0.0',
   prompt_name: 'vhuerta',
   prompt_path: '~/cv',
   whoami: 'whoami',
