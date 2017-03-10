@@ -1,36 +1,31 @@
 <style>
   .slider {
-    overflow-y: hidden;
-    max-height: 2000px;
-    /* approximate max height */
-    -webkit-transition: all 2s cubic-bezier(0, 1, 0.5, 1);
-    -moz-transition: all 2s cubic-bezier(0, 1, 0.5, 1);
-    -ms-transition: all 2s cubic-bezier(0, 1, 0.5, 1);
-    -o-transition: all 2s cubic-bezier(0, 1, 0.5, 1);
-    transition: all 2s cubic-bezier(0, 1, 0.5, 1);
-  }
-  
-  .slider.closed {
-    max-height: 0;
-    padding-bottom: 0;
+    display: none;
   }
 
 </style>
 
 <template>
 
-  <div :class="['slider row sentence', closed? 'closed' : '']">
+  <div :class="['slider row sentence']" ref="container">
     <slot></slot>
   </div>
 
 </template>
 
 <script>
+  import $ from 'jquery';
+
   export default {
     props: {
       closed: {
         type: Boolean,
         default: true
+      }
+    },
+    watch: {
+      closed(newVal, oldVal) {
+        !newVal? $(this.$refs.container).slideDown('fast') : $(this.$refs.container).slideUp('fast');
       }
     }
   }

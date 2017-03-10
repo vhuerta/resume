@@ -3,7 +3,7 @@
   .progress {
     overflow: hidden;
     height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color: transparent;
     border-radius: 0px;
     /* box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); */
@@ -22,156 +22,160 @@
     }
   }
 
+  .skills-ul {
+    ul {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+      li {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
 </style>
 
 <template>
   <div class="col-xs-12">
-    <div class="col-xs-12">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.js')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="js" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.js')}}:
+    </div>
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.java')}}:
+    </div>
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="js" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.java')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="java" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="java" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.php')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="php" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.php')}}:
+    </div>
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.python')}}:
+    </div>
+
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="php" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.python')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="python" class="progress-bar progress-bar-warn" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="python" class="progress-bar progress-bar-warn" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.ruby')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="ruby" class="progress-bar progress-bar-warn" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.ruby')}}:
+    </div>
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.nosql')}}:
+    </div>
+
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="ruby" class="progress-bar progress-bar-warn" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.nosql')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="nosql" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="nosql" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.sql')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="sql" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.sql')}}:
+    </div>
+    <div class="col-xs-6 sentence comment">
+      {{$t('skills.devops')}}:
+    </div>
+
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="sql" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
       </div>
     </div>
-    <div class="col-xs-12 ">
-      <div class="col-xs-12 col-sm-5 comment">
-        {{$t('skills.devops')}}:
-      </div>
-      <div class="col-xs-12 col-sm-7 comment">
-        <div class="progress">
-          <div ref="devops" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-            style="width: 0%">
-          </div>
+    <div class="col-xs-6 sentence comment">
+      <div class="progress">
+        <div ref="devops" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+          style="width: 0%">
         </div>
-      </div>
-    </div>
-    <div class="col-xs-12 comment">
-      <div class="col-xs-12 ">
-        Detalle:
       </div>
     </div>
     <div class="col-xs-12">
-      <div class="col-xs-12 col-md-6 comment">
-        <p>
+      <div class="col-xs-12 col-sm-6 sentence skills-ul">
+        
           <ul>
             <li>
-              Frontend: HTML, CSS, Bootstrap, Foundation, Yeoman, Gulp, Bower, Grunt, JSPM.
+              Langs: 
+              <br>&nbsp;&nbsp;JS, Java, PHP, Python, Ruby
+              <br>
             </li>
             <li>
-              Js (Frontend): Angular, VueJS, Aurelia, JQuery, M&oacute;vil con Apache Cordova.
+              Backend Frameworks: 
+                <br>&nbsp;&nbsp;JS: Node, Express, Sails, Meteor
+                <br>&nbsp;&nbsp;Java: Spring, JSF, Hibernate, JSP, EJB
+                <br>&nbsp;&nbsp;PHP: Codeigniter
+                <br>
             </li>
             <li>
-              Js (Backend): Node, Sails, Express, Meteor.
+              SO's: 
+              <br>&nbsp;&nbsp;MacOs, Windows, Linux
+              <br>
             </li>
             <li>
-              Swift (Apps): Cocoapods.
-            </li>
-            <li>
-              NoSQL: MongoDb, Neo4j
-            </li>
-            <li>
-              Webservers: Apache Nginx
-            </li>
-            <li>
-              Usuario experto: MacOs, Windows, Linux
+              DevOps:
+              <br>&nbsp;&nbsp;Rackspace, Softlayer, Heroku
+              <br>&nbsp;&nbsp;AWS (Lambdas, Kinesis, S3 Etc)
+              <br>&nbsp;&nbsp;Linux Servers (Centos, Ubuntu)
             </li>
           </ul>
-        </p>
+        
       </div>
-      <div class="col-xs-12 col-md-6 comment">
+      <div class="col-xs-12 col-sm-6 sentence skills-ul">
         <p>
           <ul>
             <li>
-              PHP: Codeigniter, Laravel.
+              Frontend Frameworks: 
+              <br>&nbsp;&nbsp;Vue JS, Angular 1.x, Aurelia, JQuery.
             </li>
             <li>
-              Java: JSF, Spring, JSP, Hibernate, JPA, EJB, JSTL, Maven.
+              Mobile: 
+              <br>&nbsp;&nbsp;Cordova, Swift.
             </li>
             <li>
-              Java Servers: Tomcat, JBoss.
+              Webservers & Other tools: 
+              <br>&nbsp;&nbsp;Apache, NGINX, Tomcat, JBoss
+              <br>&nbsp;&nbsp;RabbitMQ, Maven, Webpack, Yeoman, Gulp, Grunt
             </li>
             <li>
-              SQL: MySQL, Oracle, Firebird
+              NoSQL:
+              <br>&nbsp;&nbsp;MongoDb, Redis, Neo4j
             </li>
             <li>
-              Syadmin: Ubuntu, Centos.
+              SQL:
+              <br>&nbsp;&nbsp;MySQL, Oracle, Firebird
             </li>
           </ul>
         </p>

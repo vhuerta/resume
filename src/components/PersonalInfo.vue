@@ -10,12 +10,6 @@
       {{ $t('personal_info.residence') }}
     </div>
     <div class="col-xs-12 col-sm-6 comment">
-      {{ $t('personal_info.age') }}
-    </div>
-    <div class="col-xs-12 col-sm-6 comment">
-      {{ $t('personal_info.birthday') }}
-    </div>
-    <div class="col-xs-12 col-sm-6 comment">
       {{ $t('personal_info.mobile') }}: <a href="tel:+525550681600">(+52) 55 5068 1600</a>
     </div>
     <div class="col-xs-12 col-sm-6 comment">
@@ -23,9 +17,6 @@
     </div>
     <div class="col-xs-12 col-sm-6 comment">
       Github <i class="fa fa-github"></i>: <a href="http://github.com/vhuerta">vhuerta</a>
-    </div>
-    <div class="col-xs-12 col-sm-6 comment">
-      Skype <i class="fa fa-skype"></i>: <a href="skype:vhuertahnz?call">vhuertahnz</a>
     </div>
   </div>
 </template>
