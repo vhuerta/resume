@@ -3,7 +3,7 @@
     <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
       <div class="col-xs-12 comment">
         <p>
-          <i class="fa fa-bookmark"></i> Compropago - ({{$t('september')}} 2016 > Actual)
+          <i class="fa fa-bookmark"></i> Compropago - ({{$t('september')}} 2016 - Actual)
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Microservices Developer.
           <br>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.compropago')}}.
@@ -14,7 +14,7 @@
     <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
       <div class="col-xs-12 comment">
         <p>
-          <i class="fa fa-bookmark"></i> Blackcore de México S.A. C.V. - ({{$t('december')}} 2012 > {{$t('september')}} 2016)
+          <i class="fa fa-bookmark"></i> Blackcore de México S.A. C.V. - ({{$t('december')}} 2012 - {{$t('september')}} 2016)
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Project Lead / Fullstack Developer.
           <br>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.blackcore')}}.

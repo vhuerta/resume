@@ -9,7 +9,7 @@ import i18n from './i18n';
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  i18n,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  i18n
 });
