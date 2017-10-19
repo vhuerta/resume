@@ -158,7 +158,7 @@
           <ul>
             <li>
               Frontend Frameworks: 
-              <br>&nbsp;&nbsp;Vue JS, Angular 1.x, Aurelia, JQuery.
+              <br>&nbsp;&nbsp;Vue JS, React JS, Angular 1.x, Aurelia, JQuery.
             </li>
             <li>
               Mobile: 
@@ -200,8 +200,8 @@
     methods: {
       animate() {
         this.$refs.js.style.width = '100%';
-        this.$refs.java.style.width = '90%';
-        this.$refs.php.style.width = '90%';
+        this.$refs.java.style.width = '95%';
+        this.$refs.php.style.width = '95%';
         this.$refs.python.style.width = '50%';
         this.$refs.ruby.style.width = '50%';
         this.$refs.sql.style.width = '90%';

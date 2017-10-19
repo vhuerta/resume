@@ -10,6 +10,7 @@ export default {
   education_prompt: 'education',
   jobs_prompt: 'employment',
   may: 'Mayo',
+  july: 'Julio',
   august: 'Agosto',
   september: 'Septiembre',
   october: 'Octubre',
@@ -45,6 +46,7 @@ export default {
     unam_status: 'Trunca',
   },
   jobs: {
+    clarovideo: 'Mantenimiento y desarrollo de nuevos modulos del frontend de la plataforma principal, Tecnologias mas utilizadas: Javascript y ReactJS',
     compropago: 'Diseño, integracion y desarrollo de microservicios de alta demanda y bajo tiempo de respuesta, Participando en la elección de arquitectura y tecnologias a usar. Tecnologias mas utilizadas: Python, NodeJS, Ruby, AWS services como Lambda, Kinesis, RDBMS, Redis, Mongo, RabbitMQ',
     blackcore: 'Dirigir y guiar al equipo de desarrollo, diseño y desarrollo de diversos proyectos, tales como un sistema de control de activos fijos, sistema de valuación de inmuebles, aplicaciones móviles e integración de bancos con esos sistemas. Implementación de infraestructura Cloud y configuracion de servidores. Técnologias más utilizadas: NodeJS, PHP, MySQL, MongoDB, Rackspace Cloud',
     odintec: 'Diseño y desarrollo de sistemas a la medida para varios clientes. Tecnologias mas usadas: Java, JSP, MySQL',

@@ -1,9 +1,33 @@
 <template>
   <div class="col-xs-12">
+    
     <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
       <div class="col-xs-12 comment">
         <p>
-          <i class="fa fa-bookmark"></i> Compropago - ({{$t('september')}} 2016 - Actual)
+          <i class="fa fa-bookmark" style="color: #34cc34"></i> Claro video - ({{$t('july')}} 2017 - {{$t('actual')}})
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;Senior Developer.
+          <br>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.clarovideo')}}.
+          <br>
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12" style="margin-top: 10px; border-bottom: dotted 1px #fff;">
+      <div class="col-xs-12 comment">
+        <p>
+          <i class="fa fa-bookmark" style="color: #34cc34"></i> Odintec - ({{$t('september')}} 2015 - Actual)
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;Full Stack Developer. (Remote side projects)
+          <br>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.odintec')}}.
+          <br>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
+      <div class="col-xs-12 comment">
+        <p>
+          <i class="fa fa-bookmark"></i> Compropago - ({{$t('september')}} 2016 - {{$t('july')}} 2017)
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Microservices Developer.
           <br>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.compropago')}}.
@@ -18,17 +42,6 @@
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Project Lead / Fullstack Developer.
           <br>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.blackcore')}}.
-          <br>
-        </p>
-      </div>
-    </div>
-    <div class="col-xs-12" style="margin-top: 10px; border-bottom: dotted 1px #fff;">
-      <div class="col-xs-12 comment">
-        <p>
-          <i class="fa fa-bookmark"></i> Odintec - ({{$t('september')}} 2015 - Actual)
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;Full Stack Developer. (Remote)
-          <br>
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.odintec')}}.
           <br>
         </p>
       </div>
