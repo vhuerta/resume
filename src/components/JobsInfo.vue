@@ -2,7 +2,7 @@
   <div class="col-xs-12">
     
     <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
-      <div class="col-xs-12 comment">
+      <div class="col-sm-7 comment">
         <p>
           <i class="fa fa-bookmark" style="color: #34cc34"></i> Claro video - ({{$t('july')}} 2017 - {{$t('actual')}})
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Senior Developer.
@@ -11,9 +11,7 @@
           <br>
         </p>
       </div>
-    </div>
-    <div class="col-xs-12" style="margin-top: 10px; border-bottom: dotted 1px #fff;">
-      <div class="col-xs-12 comment">
+      <div class="col-sm-5 comment"  style="border-left: dotted 1px #fff;">
         <p>
           <i class="fa fa-bookmark" style="color: #34cc34"></i> Odintec - ({{$t('september')}} 2015 - Actual)
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Full Stack Developer. (Remote side projects)
