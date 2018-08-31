@@ -129,7 +129,7 @@
           <ul>
             <li>
               Langs: 
-              <br>&nbsp;&nbsp;JS, Java, PHP, Python, Ruby
+              <br>&nbsp;&nbsp;JS, Java, PHP, Python, Ruby, GoLang
               <br>
             </li>
             <li>
@@ -146,8 +146,9 @@
             </li>
             <li>
               DevOps:
-              <br>&nbsp;&nbsp;Rackspace, Softlayer, Heroku
+              <br>&nbsp;&nbsp;Docker
               <br>&nbsp;&nbsp;AWS (Lambdas, Kinesis, S3 Etc)
+              <br>&nbsp;&nbsp;Rackspace, Softlayer, Heroku
               <br>&nbsp;&nbsp;Linux Servers (Centos, Ubuntu)
             </li>
           </ul>
@@ -158,11 +159,11 @@
           <ul>
             <li>
               Frontend Frameworks: 
-              <br>&nbsp;&nbsp;Vue JS, React JS, Angular 1.x, Aurelia, JQuery.
+              <br>&nbsp;&nbsp;Vue JS, React JS, AngularJS, Aurelia, JQuery.
             </li>
             <li>
               Mobile: 
-              <br>&nbsp;&nbsp;Cordova, Swift.
+              <br>&nbsp;&nbsp;React Native, Cordova, Swift.
             </li>
             <li>
               Webservers & Other tools: 
@@ -206,7 +207,7 @@
         this.$refs.ruby.style.width = '50%';
         this.$refs.sql.style.width = '90%';
         this.$refs.nosql.style.width = '95%';
-        this.$refs.devops.style.width = '70%';
+        this.$refs.devops.style.width = '90%';
       }
     }
   }

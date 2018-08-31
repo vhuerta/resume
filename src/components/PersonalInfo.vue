@@ -1,5 +1,8 @@
 <template>
   <div class="col-xs-12">
+    <div class="col-xs-12 comment" style="padding: 15px 15px">
+      {{$t('aboutMe')}}
+    </div>
     <div class="col-xs-12 col-sm-6 comment">
       {{ $t('personal_info.name') }}
     </div>

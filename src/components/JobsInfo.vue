@@ -2,9 +2,20 @@
   <div class="col-xs-12">
     
     <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
+      <div class="col-xs-12 comment">
+        <p>
+          <i class="fa fa-bookmark"  style="color: #34cc34"></i> MxLabs - ({{$t('december')}} 2017 - {{$t('actual')}})
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;FullStack Developer and Founder.
+          <br>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.mxlabs')}}.
+          <br>
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12" style="border-bottom: dotted 1px #fff;">
       <div class="col-sm-7 comment">
         <p>
-          <i class="fa fa-bookmark" style="color: #34cc34"></i> Claro video - ({{$t('july')}} 2017 - {{$t('actual')}})
+          <i class="fa fa-bookmark"></i> Claro video - ({{$t('july')}} 2017 - {{$t('december')}} 2018)
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Senior Developer.
           <br>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.clarovideo')}}.
@@ -13,7 +24,7 @@
       </div>
       <div class="col-sm-5 comment"  style="border-left: dotted 1px #fff;">
         <p>
-          <i class="fa fa-bookmark" style="color: #34cc34"></i> Odintec - ({{$t('september')}} 2015 - Actual)
+          <i class="fa fa-bookmark"></i> Odintec - ({{$t('september')}} 2015 - {{$t('december')}} 2018)
           <br>&nbsp;&nbsp;&nbsp;&nbsp;Full Stack Developer. (Remote side projects)
           <br>
           <br>&nbsp;&nbsp;&nbsp;&nbsp;{{$t('jobs.odintec')}}.

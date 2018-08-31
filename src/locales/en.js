@@ -38,6 +38,8 @@ export default {
     devops: 'DevOps (Advanced)',
     detail: 'Detail'
   },
+  aboutMe:
+    "I'm a passionate and experienceful developer, in my more than 7 years of experience i had worked with clients of many different bussiness areas, learning and improving my skills every day. I like new challenges because they help me stay motivated.",
   education: {
     scrum_date: '11/25/2014',
     node_date: '11/07/2015',
@@ -46,6 +48,7 @@ export default {
     unam_status: 'Unfinished',
   },
   jobs: {
+    mxlabs: 'Lead the development team, as well as actively participate on the design, build and deployment of web and mobile apps for our international customers. The main technologies than we use are NodeJS, ReactJS, React Native and some AWS services as EC2, S3, Lambda and RDS.',
     clarovideo: 'Maintenance and develop of new features of the front end main platform, Most used techs: Javascript and ReactJS',
     compropago: 'Design, integration and development of high demand and low response time microservices, participe on choosement of architecture and technology. Most used techs: Python, NodeJS, Ruby, AWS services like Lambda functions, Kinesis Streams, RDBMS, Redis, Mongo, RabbitMQ',
     blackcore: 'Lead and guide a developers team, design and development of diverse projects, such as a fixed asset control system, property valuation system, mobile apps and banks integrations with those systems. Deployment of cloud infraestructure and server configurations. Most used techs: NodeJS, PHP, MySQL, MongoDB, Rackspace Cloud',
