@@ -172,11 +172,11 @@
             </li>
             <li>
               NoSQL:
-              <br>&nbsp;&nbsp;MongoDb, Redis, Neo4j
+              <br>&nbsp;&nbsp;MongoDb, Redis, Neo4j, ElasticSearch
             </li>
             <li>
               SQL:
-              <br>&nbsp;&nbsp;MySQL, Oracle, Firebird
+              <br>&nbsp;&nbsp;MySQL, Postgres, Oracle, Firebird
             </li>
           </ul>
         </p>

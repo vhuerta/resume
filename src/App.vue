@@ -2,7 +2,7 @@
   @import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
   @import './../node_modules/font-awesome/css/font-awesome.min.css';
   @import './assets/sass/colors.scss';
-  @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata:300,400');
   body {
     font-family: 'Inconsolata', monospace;
     font-size: 14px;
