@@ -4,7 +4,7 @@
       <div class="col-xs-12 comment">
         <p>
           <i class="fa fa-bookmark" style="color: #34cc34"></i>
-          ZignalLabs - ({{$t('december')}} 2017 - {{$t('actual')}})
+          ZignalLabs - ({{$t('october')}} 2018 - {{$t('actual')}})
           <br>&nbsp;&nbsp;&nbsp;&nbsp;FullStack Developer.
           <br>
           <br>

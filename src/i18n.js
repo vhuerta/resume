@@ -14,11 +14,11 @@ var messages = {
 Vue.use(i18n);
 
 // set lang
-Vue.config.lang = 'es';
+Vue.config.lang = 'en';
 
 // set locales
 export default new i18n({
-  locale: 'es',
-  fallbackLang: 'es',
+  locale: 'en',
+  fallbackLang: 'en',
   messages
 });
